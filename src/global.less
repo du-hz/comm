@@ -1,0 +1,222 @@
+@import '~antd/es/style/themes/default.less';
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+.colorWeak {
+  filter: invert(80%);
+}
+
+.ant-layout {
+  min-height: 100vh;
+}
+
+canvas {
+  display: block;
+}
+
+body {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 12px !important;
+  font-family: "segoe ui", Arial, sans-serif;
+  line-height: 1.5;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+.ant-divider-vertical {
+  margin: 0 4px !important;
+}
+
+.ant-form-item-explain {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.rdc-col-to-long {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+
+.rdc-table-row-warning {
+  background-color: darkorange;
+}
+
+.rdc-table-row-invalid {
+  background-color: grey;
+}
+
+.react-resizable {
+  position: relative;
+}
+
+.react-resizable-handle {
+  // position: absolute;
+  width: 10px;
+  height: 100%;
+  bottom: 0;
+  right: 0px;
+  cursor: col-resize;
+  //background: red;
+  // z-index: 999;
+}
+
+.react-resizable-handle.active::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  border-left: solid 1px black;
+}
+
+
+//.ant-table.ant-table-small .ant-table-title,
+//.ant-table.ant-table-small .ant-table-footer,
+//.ant-table.ant-table-small .ant-table-header,
+//.ant-table.ant-table-small .ant-table-thead > tr > th,
+////.ant-table.ant-table-small .ant-table-tbody > tr > td,
+//.ant-table.ant-table-small tfoot > tr > th,
+//.ant-table.ant-table-small tfoot > tr > td,
+//.ant-table-cell {
+//  padding: 4px 4px !important;
+//}
+//
+//.ant-table {
+//  font-size: 12px !important;
+//  line-height: 1.4 !important;
+//}
+//
+//.ant-table-pagination.ant-pagination {
+//  margin: 6px 0 !important;
+//}
+//
+//.ant-table-small .ant-table-selection-column {
+//  width: 32px !important;
+//  min-width: 32px !important;
+//}
+//
+.modal-drag .ant-modal-header,
+.modal-drag-agg .ant-modal-header,
+.modal-drag-loc .ant-modal-header,
+.modal-drag-comm .ant-modal-header,
+.modal-drag-IBS .ant-modal-header,
+.modal-drags .ant-modal-header {
+//  padding: 4px 8px !important;
+  cursor: move;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+//
+//.ant-modal-footer {
+//  padding: 4px 8px !important;
+//}
+//
+//.ant-modal-close-x {
+//  width: 32px !important;
+//  height: 32px !important;
+//  font-size: 16px !important;
+//  line-height: 32px !important;
+//}
+//
+//.ant-form-item-explain, .ant-form-item-extra {
+//  min-height: 16px !important;
+//  font-size: 12px !important;
+//  line-height: 1.4 !important;
+//}
+//
+//.ant-form-item {
+//  margin-bottom: 16px !important;
+//  font-size: 14px !important;
+//  line-height: 1.4 !important;
+//}
+//
+//.ant-form-item-with-help {
+//  margin-bottom: 0 !important;
+//}
+//
+//.ant-input {
+//  padding: 1.8px 6px !important;
+//  font-size: 12px !important;
+//  //line-height: 1.4 !important;
+//}
+//
+//.ant-input-group-addon:first-child {
+//  border-right: 0;
+//}
+//
+//.ant-input-search-enter-button + .ant-input-group-addon .ant-input-search-button, .ant-input-search-enter-button input + .ant-input-group-addon .ant-input-search-button {
+//  border-top-left-radius: 0 !important;
+//  border-bottom-left-radius: 0 !important;
+//}
+.ant-input-group-addon .ant-input-search-button{
+  height: 25.59px;
+  background: #fff;
+  border-color:rgba(0, 0, 0, 0.35);
+}
+.modal-drag .ant-modal-content,
+.modal-drag-agg .ant-modal-content,
+.modal-drag-loc .ant-modal-content,
+.modal-drag-comm .ant-modal-content,
+.modal-drag-IBS .ant-modal-content,
+.modal-drags .ant-modal-content{
+  height: 100%;
+  overflow: hidden;
+}
+
+.drag-move,
+.drag-move-agg,
+.drag-move-loc,
+.drag-move-comm,
+.drag-move-IBS,
+.drag-moves{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 16px;
+  height: 15px;
+  cursor: se-resize;
+  background-image: url(./assets/WechatIMG180.png);
+  background-position: -137px -458px;
+  z-index: 999;
+  min-width:none;
+}
+
+@media (max-width: @screen-xs) {
+  .ant-table {
+    width: 100%;
+    overflow-x: auto;
+    &-thead > tr,
+    &-tbody > tr {
+      > th,
+      > td {
+        white-space: pre;
+        > span {
+          display: block;
+        }
+      }
+    }
+  }
+}
+
+// 兼容IE11
+@media screen and(-ms-high-contrast: active), (-ms-high-contrast: none) {
+  body .ant-design-pro > .ant-layout {
+    min-height: 100vh;
+  }
+}

@@ -1,0 +1,891 @@
+.ant-pro-sider-menu-logo h1{
+    font-size: 15px!important;
+}
+.ant-table-thead > tr > th{
+    text-align: center;
+    color: #fff;
+}
+
+.ant-spin-container {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+/* .groupBox .ant-btn, .queryBtn .ant-btn {
+    margin-right: 20px; // 在佣金协议维护group信息处可见作用，暂不需要
+} */
+.tipsContent {
+    margin-top: 3px;
+    margin-left: 3px;
+}
+.modalContent {
+    border: 1px solid #aaaaaa;
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 15px;  
+}
+.more-btn .ant-btn {
+    margin: 2px 2px 2px 0;
+}
+.topBox,.bottomBox, .groupBox {
+    border: 1px solid #aaaaaa;
+    padding: 10px 10px 10px 10px;
+    margin: 5px 0;  
+}
+.bottomBox{
+    width: auto;
+}
+.ant-modal-footer{
+    display: none;
+}
+.ant-table-thead > tr > th{
+    background: #2795f5;
+    color: #fff;
+}
+.ant-input{
+    border:1px solid #2795f5;
+}
+.ant-btn{
+    background-color: #2795f5;
+    color: #fff;
+    border: 1px solid #2795f5;
+}
+.ant-col-24{
+    /* flex: 0 0 61%; */
+}
+.ant-col-24>.ant-pagination{
+    display: none;
+}
+.activeshow{
+    display: block;
+}
+.activeconceal{
+    display: none;
+}
+.activeshow>.ant-row>.ant-col-24>.ant-space-align-center{
+    display: none;
+}
+.activeshow>.ant-row{
+    justify-content: center;
+    align-items: center;
+}
+.ant-table-thead > tr > th{
+    background: #2795f5;
+    color: #fff;
+}
+.ant-input{
+    border:1px solid #2795f5;
+}
+.ant-select {
+    width: 100%;
+}
+/* .ant-select-single:not(.ant-select-customize-input) .ant-select-selector{
+    border:1px solid #2795f5;
+} */
+
+.ant-input[disabled]{
+    color: #000!important;
+}
+
+.ant-select-disabled.ant-select-single:not(.ant-select-customize-input) .ant-select-selector{
+    color:#000!important;
+}
+
+.ant-picker-input > input[disabled]{
+    color:#000!important;
+}
+.ant-picker-range{
+    width: 100%;
+}
+.ant-col-24{
+    /* flex: 0 0 61%; */
+}
+.copy-btn{
+    display: inline-block;
+}
+.list {
+    max-height:476px;
+    padding-left: 0;
+    border: 1px solid #d9d9d9;
+    border-left: none;
+    border-top: none;
+    overflow-y: scroll;
+}
+.list::-webkit-scrollbar {display:none}
+.list li ul {
+    padding: 0;
+    border-top: 1px solid #d9d9d9;
+}
+.list li ul li:nth-child(1) div{
+    border-top: none;
+}
+.list li ul li>span {
+    width: 20%;
+    display: inline-block;
+}
+.list .is-open-boxsize{
+    transform:rotate(90deg);
+    -ms-transform:rotate(90deg); 	/* IE 9 */
+    -moz-transform:rotate(90deg); 	/* Firefox */
+    -webkit-transform:rotate(90deg); /* Safari 和 Chrome */
+    -o-transform:rotate(90deg); 	/* Opera */
+}
+
+.list li div {
+    height:20px;
+    text-align: center;
+    display: inline-block;
+    border-left: 1px solid #d9d9d9;
+    border-top: 1px solid #d9d9d9;
+}
+.list li div:nth-child(3) {
+    border-right: none;;
+}
+.list>li:nth-child(1) {
+    background: #2795f5 !important;
+    color: #fff;
+    border-top: none;
+}
+.list li div:nth-child(1) span {
+    width: 30%;
+    display:inline-block;
+    cursor: pointer;
+}
+.list>li:nth-child(1) div:nth-child(3) span {
+    width: 50%;
+    display:inline-block;
+    border-right: 1px solid #d9d9d9;
+}
+.list li div:nth-child(1) {
+    width: 20%;
+}
+.list li div:nth-child(2),
+.list li div:nth-child(3) {
+    width: 40%;
+}
+/* ----------------------------佣金箱型尺寸组新增画面----------------------- */
+.box-size-group{
+    width:58%;
+    border:1px solid #aaaaaa;
+    padding:10px;
+    display:inline-block;
+    vertical-align:top;
+    margin-left:2%;
+    border-radius: 10px
+}
+.box-size-group-top{
+    border:1px solid #aaaaaa;
+    padding: 5px 5px 5px 15px;
+}
+.box-size-group-main-input{
+    margin: 15px 0;
+}
+.box-size-group-main-input-left{
+    width:20%;
+    /* height: 200px;
+    display: flex;
+    justify-content: space-around;
+    justify-items: center; */
+}
+.box-size{
+   /* line-height: 200px;
+   padding-right: 5px; */
+   width: 100%;
+   padding: 5px;
+}
+.box-size-ul{
+    width: 100%;
+    height: 255px;
+    overflow: hidden;
+    overflow-y: scroll;
+    padding: 0px;
+    text-align: center;
+    border: 1px solid rgb(204, 204, 204);
+}
+.box-size-ul li{
+    height: 25px;
+    line-height: 25px;
+    cursor: pointer
+}
+.box-size-group-main-input-center-button{
+    width: 20%;
+    padding: 0px 0px 0px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    justify-items: center;
+    align-items: center;
+}
+.box-size-group-main-input-center-button button{
+    /* display: block; */
+    width:40%;
+    height: 30px;
+    background-color: #2795f5;
+    color: #fff;
+    margin-bottom: 10px;
+    border: #07487e;
+}
+.box-size-group-main-input-bottom{
+    width: 50%;
+}
+.box-size-detail{
+    width: 100%;
+    padding:5px 5px 5px 15px;
+}
+
+.current {
+    background: #aaa;
+    color: #fff;
+}
+
+/*----------------------- LocalCharge协议查询的新增编辑-------------------*/
+
+.add{
+    width: 100%;
+    height: 100%;
+}
+.add-header{
+    display:inline-block;
+}
+.add-header-from-searchGroup{
+    width: 100%;
+    height: 50%;
+    border: 1px solid #aaa;
+    margin-top: 10px;
+}
+.add-header-from-searchGroup>.ant-form{
+    margin: 10px 10px 0 -20px;
+}
+.add-header-from-modal{
+    width: 100%;
+    height: 50%;
+    border: 1px solid #aaa;
+    margin-top: 10px;
+}
+.add-header-from-modal>.ant-form{
+    padding-top: 10px;
+    padding-right: 5px;
+}
+
+.add-main-button button{
+    /* background: #2795f5;
+    border: 1px solid #2795f5;
+    color: #fff; */
+    margin: 2px 1px;;
+}
+.add-save-button{
+    text-align: right;
+}
+.add-save-button>button{
+    background: #2795f5;
+    border: 1px solid #2795f5;
+    color: #fff;
+    margin: 5px;
+}
+.add>button{
+    margin:3px 10px;
+    background: #2795f5;
+    border: 1px solid #2795f5;
+    color: #fff;
+}
+
+.add-footer-table{
+    border: 1px solid #aaa;
+    
+}
+.add-footer-table-button{
+    display: flex;
+}
+.add-footer-table-button button{
+    margin: 5px 5px 0 10px;
+}
+.add-footer-table>.ant-row>.ant-col-24>.ant-space-align-center{
+    display: none;
+}
+.operation{
+    display: flex;
+    justify-content: center;
+}
+.add-top-from-searchGroup-date{
+    width: 303px;
+}
+.add-top-from-searchGroup-date>.ant-col-6{
+    width: 303px !important;
+    max-width: 303px;
+}
+.add-top-from-searchGroup-date>.ant-col-6>.ant-form-item{
+    width: 303px;
+}
+.add-top-from-searchGroup-date>.ant-col-6>.ant-form-item>.ant-form-item-label{
+    max-width: 30%;
+}
+
+/* ----------------------------------- 复制 ------------------------ */
+.copy{
+    width: 100%;
+    height: 100%;
+}
+.copy-header-from{
+    width: 100%;
+    margin-top: 10px;
+    /* padding: 15px 0px ; */
+}
+.copy-from-btn{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+.copy-from-btn>.ant-btn{
+    margin:0 0px 0 34%;
+}
+
+/*----------------------- LocalCharge计算协议 -------------------*/
+
+
+/*------------------------- 全局通用 --------------------------*/
+.ant-pro-grid-content {
+    padding-bottom: 20px;
+}
+.save-show{
+    display:inline-block;
+}
+.show{
+    display: block;
+}
+.hide{
+    display: none;
+}
+.anticon{
+    font-size: 15px;
+}
+.ant-btn>.anticon{
+    font-size: 12px;
+    margin-right: 3px;
+}
+/*----------------------- 全局协议查询 -------------------*/
+.parent-box{
+    margin: 5px -10px;
+}
+.header-from{
+    border: 1px solid #aaaaaa;
+    position: relative;
+}
+.header-from>.ant-form{
+    padding: 15px 10px 15px 10px;
+}
+.from-top{
+    margin: 20px 10px 10px 0;
+    
+}
+.main-button{
+    display: flex;
+    justify-content: space-around;
+ }
+ .main-button button{
+    margin: 2px 1px;
+ }
+ .button-left{
+    width: 70%;
+}
+.button-right{
+    width: 30%; 
+}
+.button-right button{
+    float: right;
+}
+.footer-table{
+    border: 1px solid #aaa;
+    padding:2px 0 10px 0px;
+}
+.ant-table-thead > tr > th{
+    text-align: center !important;
+    color: #fff !important;
+    background-color: #2795f5 !important;
+}
+.query-condition{
+    position: absolute;
+    top:-11px;
+    left: 15px;
+    background-color: #f0f2f5;
+    width: 8%;
+    height: 20px;
+    text-align: center;
+    color: #fff;
+}
+.ant-row>.ant-col-24 {
+    /* text-align: center !important; */
+}
+.footer-money{
+    width: 100%;   
+    /* display: flex; */
+    padding-top: 5px;
+}
+.footer-money-all{
+    padding: 5px;
+    display: inline-block;
+}
+.footer-money .ant-col span{
+    width: 10%;
+    text-align: center;
+    padding: 5px 0px 5px 5px;
+    color: #e69700;
+}
+.footer-money .ant-col{
+    /* width: 20%; */
+    text-align: center;
+    padding: 5px;
+    color: #e69700;
+    font-weight: bold;
+}
+
+/* .header-from>.button-right{
+    margin: 2px 1px;
+} */
+
+/*----------------------------------- 代理费协议 -----------------------------------*/
+.agency-fee{
+    padding: 10px;
+}
+
+/* .ant-table-body::-webkit-scrollbar {display:none} */
+.ant-modal-confirm .ant-modal-close{
+    display: block!important;
+}
+.ant-modal-close{
+    background: #2795f5!important;
+    color: #fff!important;
+     border-radius: 0 0 0 30px!important;
+}
+.example {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    text-align: center;
+    background: rgba(255,255,255,.5);
+    border-radius: 4px;
+    margin-bottom: 20px;
+    z-index: 9999;
+  }
+  .example .ant-spin{
+      position: absolute;
+      width: 80px;
+      top: 50%;
+      left: 50%;
+      transform: translate(50%,50%);
+      z-index: 999;
+  }
+  .example .ant-spin .ant-spin-dot{
+      font-size: 34px;
+  }
+  .example .ant-spin .ant-spin-dot .ant-spin-dot-item{
+      width: 16px;
+      height: 16px;
+  }
+.ant-tabs-nav{
+    margin-bottom: 5px !important;
+}
+
+/* 日期图标 */
+.ant-picker-suffix {
+    display: none!important;
+}
+.store{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.store-right{
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom_btn{
+    text-align: right;
+}
+
+.bottom_btn button {
+    margin: 10px 10px 0px;
+}
+.ant-input-number {
+    width: 100%!important;
+}
+.ant-input-number-disabled {
+    color: #000!important;
+}
+
+.ant-select-disabled.ant-select-multiple .ant-select-selection-item {
+    color: #000!important;
+}
+/* ---------------------------tap切换-------------------------- */
+/* .ant-tabs-card > .ant-tabs-nav .ant-tabs-tab, .ant-tabs-card > div > .ant-tabs-nav .ant-tabs-tab{
+    border: none;
+    background: none;
+}
+.ant-tabs-top > .ant-tabs-nav::before, .ant-tabs-bottom > .ant-tabs-nav::before, .ant-tabs-top > div > .ant-tabs-nav::before, .ant-tabs-bottom > div > .ant-tabs-nav::before{
+    border-bottom: 1.5px solid #aaaaaa;
+} */
+.ant-tabs-card > .ant-tabs-nav .ant-tabs-tab, .ant-tabs-card > div > .ant-tabs-nav .ant-tabs-tab{
+    padding: 6px 5px;
+}
+
+/* -------------------------------------提示框----------------------------------------- */
+.alert{
+    margin-bottom: 10px;
+}
+
+.ant-select-single:not(.ant-select-customize-input) .ant-select-selector{
+    background: none !important;
+}
+
+.btn-bottom button{
+    margin: 5px;
+}
+.ant-select-selection-item{
+    white-space: break-spaces!important;
+}
+.toastParent{
+    margin-top: -18px;
+}
+
+/* ===========拖拽列宽============== */
+.react-resizable {
+    position: relative;
+    background-clip: padding-box;
+  }
+  .react-resizable-handle {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    box-sizing: border-box;
+    background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2IDYiIHN0eWxlPSJiYWNrZ3JvdW5kLWNvbG9yOiNmZmZmZmYwMCIgeD0iMHB4IiB5PSIwcHgiIHdpZHRoPSI2cHgiIGhlaWdodD0iNnB4Ij48ZyBvcGFjaXR5PSIwLjMwMiI+PHBhdGggZD0iTSA2IDYgTCAwIDYgTCAwIDQuMiBMIDQgNC4yIEwgNC4yIDQuMiBMIDQuMiAwIEwgNiAwIEwgNiA2IEwgNiA2IFoiIGZpbGw9IiMwMDAwMDAiLz48L2c+PC9zdmc+');
+    background-position: bottom right;
+    padding: 0 3px 3px 0;
+  }
+  .react-resizable-handle-sw {
+    bottom: 0;
+    left: 0;
+    cursor: sw-resize;
+    transform: rotate(90deg);
+  }
+  .react-resizable-handle-se {
+    bottom: 0;
+    right: 0;
+    cursor: se-resize;
+  }
+  .react-resizable-handle-nw {
+    top: 0;
+    left: 0;
+    cursor: nw-resize;
+    transform: rotate(180deg);
+  }
+  .react-resizable-handle-ne {
+    top: 0;
+    right: 0;
+    cursor: ne-resize;
+    transform: rotate(270deg);
+  }
+  .react-resizable-handle-w,
+  .react-resizable-handle-e {
+    top: 50%;
+    margin-top: -10px;
+    cursor: ew-resize;
+  }
+  .react-resizable-handle-w {
+    left: 0;
+    transform: rotate(135deg);
+  }
+  .react-resizable-handle-e {
+    right: 0;
+    transform: rotate(315deg);
+  }
+  .react-resizable-handle-n,
+  .react-resizable-handle-s {
+    left: 50%;
+    margin-left: -10px;
+    cursor: ns-resize;
+  }
+  .react-resizable-handle-n {
+    top: 0;
+    transform: rotate(225deg);
+  }
+  .react-resizable-handle-s {
+    bottom: 0;
+    transform: rotate(45deg);
+  }
+  .examples {
+    padding: 30px 50px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+    z-index: 999;
+  }
+  /* 预算跟踪管理 */
+  .budget-tracking .ant-tabs-nav{
+    margin: 0 0 12px 10px;
+  }
+  .budget-tracking .ant-tabs-nav .ant-tabs-tab{
+    padding: 6px 30px;
+  }
+
+@media screen and (max-width:1200px) {
+    .colWidth {
+        width:25%!important
+    }
+}
+@media screen and (max-width:1000px) {
+    .colWidth {
+        width:33.3%!important
+    }
+}
+@media screen and (max-width:750px) {
+    .colWidth {
+        width:50%!important
+    }
+}
+@media screen and (min-width:1200px) {
+    .colWidth {
+        width:20%!important
+    }
+}
+/* --------------------------------------------------------罚佣-------------------------------------------------- */
+.ant-input-textarea{
+    width: 100%;
+}
+
+.ant-picker-range {
+    width: 100%;
+}
+/* -----------------------------------------共用组件 select 中的背景颜色------------------------------------- */
+.ant-select{
+    background-color: #ffffff;
+}
+.ant-select-disabled{
+    background-color:#f5f5f5;
+}
+/* ---------------------------------------------------------- 按钮 -------------------------------------- */
+.operation .ant-btn{
+    background-color: transparent;
+    border:none;
+    margin: -5px;
+}
+.ant-form-item-label > label::after {
+    content: ''!important;
+}
+
+/* ---------------------------------------上载费率-------------------------------------- */
+.uploadRate-button{
+    display: flex;
+    padding-bottom: 10px;
+}
+.uploadRate-button-left{
+    border: 1px solid #ccc;
+}
+.uploadRate-button-left-top>span{
+    display: inline-block;
+}
+.uploadRate-button button{
+    margin: 5px;
+}
+.uploadRate-button-left-bottom{
+    border-top:1px solid #ccc ;
+    margin: 0px 0px 20px 0px;
+}
+.filebutton{
+    position: relative;
+    display: inline-block;
+}
+.filebutton input{
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    left: 0;
+    width: 100%;
+}
+#file{
+    overflow: hidden;
+}
+
+/* -----------------------------------------------字段------------------------------ */
+.field{
+    width:100%;
+    border:1px solid #aaaaaa;
+    padding:10px;
+    display:inline-block;
+    vertical-align:top;
+    border-radius: 10px
+}
+.field-top{
+    border:1px solid #aaaaaa;
+    padding: 5px 5px 5px 15px;
+}
+.field-main-input{
+    margin: 15px 0;
+}
+.field-main-input-left-button{
+    width: 10%;
+    padding: 0px 0px 0px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    justify-items: center;
+    align-items: center;
+}
+.field-main-input-left{
+    width:25%;
+    border: 1px solid rgb(204, 204, 204);
+}
+.field-size{
+   width: 100%;
+   padding: 5px;
+   border-bottom: 1px solid rgb(204, 204, 204);
+}
+.field-size-ul{
+    width: 100%;
+    height: 255px;
+    overflow: hidden;
+    overflow-y: scroll;
+    padding: 0px;
+    text-align: center;
+}
+.field-size-ul li{
+    height: 25px;
+    line-height: 25px;
+    cursor: pointer
+}
+.field-main-input-center-button{
+    width: 10%;
+    padding: 0px 0px 0px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    justify-items: center;
+    align-items: center;
+}
+.field-main-input button{
+    /* display: block; */
+    background-color: #2795f5;
+    color: #fff;
+    margin-bottom: 10px;
+    border: #07487e;
+}
+.field-main-input-bottom{
+    width: 25%;
+    border: 1px solid rgb(204, 204, 204);
+}
+.field-size-detail{
+    width: 100%;
+    border-bottom: 1px solid rgb(204, 204, 204);
+    padding:5px 5px 5px 15px;
+}
+.field-main-input-right-button{
+    width: 10%;
+    padding: 0px 0px 0px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    justify-items: center;
+    align-items: center;
+}
+
+.current {
+    background: #aaa;
+    color: #fff;
+}
+
+/* ------------------------input 的后缀icon图标-------------------- */
+.ant-input-group-addon{
+    background:none !important;
+    border:none !important;
+}
+
+
+.ant-picker-range-separator{
+    padding: 0 !important;
+}
+.ant-picker{
+    padding: 3px 0px !important;
+}
+
+.ant-form-item-label{
+    display: flex;
+    justify-content: flex-end;
+    line-height: 16px;
+}
+.ant-form-item-label > label{
+   white-space: pre-wrap 
+}
+.ant-form-item-label{
+    overflow: visible !important;
+}
+
+.ant-form-item-label > label.ant-form-item-required:not(.ant-form-item-required-mark-optional)::after {
+    display: inline-block;
+    margin-right: 4px;
+    color: #ff4d4f;
+    font-size: 11px;
+    font-family: SimSun, sans-serif;
+    line-height: 1;
+    content: '*'!important;
+}
+
+.ant-form-item-label > label.ant-form-item-required:not(.ant-form-item-required-mark-optional)::before {
+    content: ''!important;
+}
+
+.ant-table-summary {
+    display: table-header-group;
+}
+.ant-table-summary .ant-table-cell{
+    border-right: 0!important;
+    color: #f00;
+}
+
+/* 协议组维护--新增弹窗-复选框样式 */
+.ant-modal-body .ant-checkbox + span{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.ant-modal-body .ant-checkbox-group-item{
+    margin-right: 5px;
+}
+
+.ant-picker {
+    width: 100%;
+}
+.ant-input-group-addon .ant-input-search-button{
+    height: 23.59px;
+}
+
+/* .ant-modal {
+    top: 0px!important;
+} */
+
+.cwclass {
+    display: none;
+}
+
+#add_comm_fee .ant-select-selection-placeholder {
+    color: red!important;
+}
+/* 拖拽弹框内盒子的最小宽度 */
+/* .ant-modal-body>div{
+    min-width: 800px
+} */
+.ant-modal-body>.drag-move{
+    min-width:0 !important;
+}
+.ant-modal-body>.ant-modal-confirm-body-wrapper{
+    min-width:0;
+}
+.ant-modal-body{
+    overflow: scroll;
+    height: 100%;
+}
+.ant-table-body{
+    overflow: auto !important;
+}
+.ant-table-expanded-row-fixed{
+    width: none;
+}

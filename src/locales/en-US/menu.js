@@ -1,0 +1,207 @@
+export default {
+  'menu.afcm.sample': '样例页面',
+  'menu.afcm.base.commConfig': 'Profit Center Config-Commission',
+  'menu.afcm.base.agFeeConfig': 'Profit Center Config-Agency Fees',
+  'menu.afcm.base.cntr.whiteConfiguration': 'Maintenance Whitelist',
+  'menu.afcm.base.generateReimburConfig': '自动生成报账单配置',
+  'menu.afcm.base.cstm.vatAllocation': '增值税率配置表维护',
+  'menu.afcm.base.configuration': 'Maintenance Settlement Currency',
+  'menu.afcm.base.agentData': 'Master Data of Agency',
+  'menu.afcm.base.portAgent': 'Port Related to Agency Code',
+  'menu.afcm.base.officeAgent': 'Office Related to Agency Code',
+  'menu.afcm.language': '国际化',
+  'menu.afcm.agreement.agency': 'Agent fee agreement maintenance',
+  'menu.afcm.agreement.agency.agencyFee': 'Agent fee agreement maintenance',
+  'menu.afcm.agreement.agency.searchCaclAgencyFeeAgmtList': 'Agency Fee Agreement Calculate',
+
+
+
+
+  'menu.afcm.task-report': 'Sheet',
+  'menu.afcm.task-report.inv-not-cre': '未开票统计报表',
+  'menu.afcm.task-report.ar-sixty-days': '超期60天统计报表',
+  'menu.afcm.comm.ext-stl.ope-fee-cost-sta': '操作费成本报表',
+  'menu.afcm.CalFeeQy': 'Query For Fee Calculate',
+  'menu.afcm.CalFeeQy.comp': 'Query Commission History Data',
+  'menu.afcm.reportForm.statisticsReport': 'Calculate fee statistics report',
+  'menu.afcm.reportForm.unreportedQuery': 'Incomplete operation query',
+  'menu.afcm.CalFeeQy.qy-AF': 'Query Agency Fee For Calculate Results',
+  'menu.afcm.CalFeeQy.qy-AF.qy-cal': 'Agency Fee Query For Calc Results',
+  'menu.afcm.CalFeeQy.qy-AF-hist': 'Agency Fee History Enquriy',
+  'menu.afcm.CalFeeQy.qy-AF-hist.qy-hist-info': 'Query For Fee History',
+  'menu.afcm.CalFeeQy.qy-AF-hist.qy-bas-hist-info': 'His Of Basic Edition Render',
+  'menu.afcm.agreement.protocolGroup': 'Agreement Group',
+  'menu.afcm.agreement.protocolGroup.maintain': 'Maintenance Agreement Group',
+  'menu.afcm.agfee-stl.checkMonitor': '台账核对与监控',
+  'menu.afcm.agfee-stl.checkMonitor.checkMonth': '当月记核对台账',
+  'menu.afcm.agfee-stl.checkMonitor.sapUserRecord': 'SAP记账用户分布',
+  'menu.afcm.agfee-stl.checkMonitor.afsRecord': 'AFS总部记账分布',
+  'menu.afcm.agfee-stl.checkMonitor.afsNoRecord': 'AFS总部未记账分布',
+  'menu.afcm.budgetTracking': 'Budget tracking management',
+  'menu.afcm.budgetTracking.volume': '预估业务量录入',
+  'menu.afcm.budgetTracking.diff': '预估业务量与实际差异',
+  'menu.afcm.calculation': '测算管理',
+  'menu.afcm.calculation.operation': 'Prediction task query',
+  'menu.afcm.calculation.search': '测算差异查询',
+  'menu.afcm.calculation.calc-comm': '测算差异查询(佣金)',
+  'menu.afcm.calculation.calc-agfee': '测算差异查询(代理费)',
+  'menu.afcm.trainComm': '班列佣金',
+  'menu.afcm.trainComm.trainRoute': 'Train Route Configuration',
+  'menu.afcm.trainComm.trainAgreement': 'Train Commission Agreement',
+  'menu.afcm.trainComm.trainCommOperate': '班列放弃佣金航线配置',
+
+
+
+  'menu.welcome': 'Welcome',
+  'menu.more-blocks': 'More Blocks',
+  'menu.home': 'Home',
+
+  'menu.afcm.base': 'Basic Data Maintenance',
+  'menu.afcm.base.cntr': 'Commission Module Table Maintenance',
+  'menu.afcm.base.cntr.discount': 'Padlock Ratio',
+  'menu.afcm.base.cntr.bkgParty': 'Agency Contacts((Booking Party)',
+  'menu.afcm.base.cntr.agtProfitCenter': 'Profit Center of Agency',
+  'menu.afcm.base.cntr.agmtMail': 'Mail Receiving Configuration',
+  'menu.afcm.base.cntr.agtAreaConf': 'Agent Area Configuration',
+  'menu.afcm.base.cstm': 'Fee of Module Table Maintenance',
+  'menu.afcm.base.cstm.actProfitCenter': 'Profit Center of Agency',
+  'menu.afcm.base.cstm.cntcPort': 'Agency Contacts(Port)',
+
+
+
+  'menu.afcm.agreement': 'Maintenance Agreement', // 佣金协议--原：协议维护
+  'menu.afcm.agreement.commission': 'Commission Agreement',
+  'menu.afcm.agreement.commission.maintenance': 'Commission Agreement',
+  'menu.afcm.agreement.commission.Demurrage': '滞期费/DROP OFF/LOLO佣金费率配置',
+
+  'menu.afcm.agreement.commission.search-cacl-commission-agmtList': 'Calculate Agreement Query',
+  'menu.afcm.agreement.local-charge': 'LocalCharge Agreement Table Maintenance',
+  'menu.afcm.agreement.local-charge.local-charge-agreement': 'Local Charge Agreement Maintenance',
+  'menu.afcm.agreement.local-charge.IBS-return-commission-agreement': 'IBS Rebate Commission Agreement',    // IBS返还佣金协议 -- 有两个
+
+  'menu.afcm.agreement.local-charge.local-charge-computation-protocol': 'Local Charge Calculate Agreement Query',
+  'menu.afcm.agreement.inspireAgFee': 'Inspire AgFee',
+  'menu.afcm.agreement.inspireAgFee.calcProtocol': 'Calculation Protocol',
+
+  'menu.afcm.comm': 'Commission Settlement',
+  'menu.afcm.comm.er': 'Estimated Commission',
+  'menu.afcm.comm.er.unlock': 'Unlock Estimated Commission',
+  'menu.afcm.comm.er.gen-comm': 'Create Estimated Comm List',
+  'menu.afcm.comm.er.pending-comm': 'Pending Estimated Commission Lists',
+  'menu.afcm.comm.er.est-cost': 'Query Estimated Commission',
+  'menu.afcm.comm.er.est-sheet': 'Query Estimated Commission Lists',
+  'menu.afcm.comm.er.est-sheet-popup': '查询预估单明细',
+
+  'menu.afcm.comm.ar': 'Commission Payable',
+  'menu.afcm.comm.ar.gen-inv': 'Create Invoice Payable',
+  'menu.afcm.comm.ar.qy-comm': 'Query For Payable Commission',
+  'menu.afcm.comm.ar.qy-inv': 'Query For Payable Invoice',
+  'menu.afcm.comm.cr': 'Transfer Payable to Commission Rendering',
+  'menu.afcm.comm.cr.gen-reimb': 'Create Rendering Comm List',
+  'menu.afcm.comm.cr.pending-reimb': 'Pending Rendering Comm Lists',
+  'menu.afcm.comm.cr.paid-comm': 'Query for Transfer Payable to Commission Rendering',
+  'menu.afcm.comm.cr.bill-paid': 'Query for Rendering Comm Lists',
+
+  'menu.afcm.comm.bas-ver': 'Basic Edition Rendering(System generated)',
+  'menu.afcm.comm.bas-ver.gen-ret-bl': 'Create Rendering Comm List',
+  'menu.afcm.comm.bas-ver.lal-chrge-gen-bl': 'LocalCharge Rendering List',
+  'menu.afcm.comm.bas-ver.bill-be-pro': 'Wait For Process Rendering',
+  'menu.afcm.comm.bas-ver.rep-bl-deta-iqry': 'Query for Details of Rendering',
+  'menu.afcm.comm.bas-ver.un-qry': 'Query for un-renderred',
+
+
+  'menu.afcm.comm.ext-stl': 'Extension services (CBS)',
+  'menu.afcm.comm.ext-stl.qry-cal-rst': 'Query The Result of Extended Service',
+  'menu.afcm.comm.ext-stl.qry-his-qry': 'Query The History of Extended Service',
+  'menu.afcm.comm.ext-stl.ope-fee-sta': 'Report of The Extended Service',
+  'menu.afcm.comm.ext-stl.ope-chrg-der': 'Generate Extended Service Bill',
+  'menu.afcm.comm.ext-stl.exp-his-qry': 'Query The Bill of Extended Service',
+
+  'menu.afcm.CalFeeQy.comp.qy-comm-hist-info': 'Query for Commission History',
+  'menu.afcm.CalFeeQy.comp.qy-comm-st': 'Query for Commission Status',
+  'menu.afcm.CalFeeQy.comp.bas-hist-info': 'His List Of Basic Edition',
+  'menu.afcm.CalFeeQy.comp.bas-iuu-qy': 'Basic Edition No Reimbursement',
+
+  'menu.afcm.CalFeeQy.qyComm': 'Query for Commission Caculation Results',
+  'menu.afcm.CalFeeQy.qyComm.qy-comm-cal-fee': 'Query for Commission Caculation Results',
+
+
+  'menu.afcm.agfee-stl': 'Agency Fee Settlement',
+
+  'menu.afcm.agfee-stl.estimateFee': 'Estimated Fee',
+  'menu.afcm.agfee-stl.estimateFee.unlock': 'Unlock Estimated Fee',
+  'menu.afcm.agfee-stl.estimateFee.generateCost': 'Create Estimated Fee List',
+  'menu.afcm.agfee-stl.estimateFee.pendingCost': 'Pending Estimated Fee Lists',
+  'menu.afcm.agfee-stl.estimateFee.costQuery': 'Query For Estimated Fee',
+  'menu.afcm.agfee-stl.estimateFee.sheetQuery': 'Query For Estimated Fee List',
+
+  'menu.afcm.agfee-stl.acc-chrg': 'Charge Payable',
+  'menu.afcm.agfee-stl.acc-chrg.gen-inv-rec': 'Create Invoice Payable',
+  'menu.afcm.agfee-stl.acc-chrg.inq-but-ex-rec': 'Query For Payable Fee',
+  'menu.afcm.agfee-stl.acc-chrg.inq-inv-rec': 'Query For Payable Invoice',
+
+  'menu.afcm.agfee-stl.carryFwdPay': 'Transfer Payable to Fee Rendering',
+  'menu.afcm.agfee-stl.carryFwdPay.generateBill': 'Create Rendering Fee List',
+  'menu.afcm.agfee-stl.carryFwdPay.PendingBill': 'Pending Rendering Fee Lists',
+  'menu.afcm.agfee-stl.carryFwdPay.queryExpenses': 'Query for Rendering Fee',
+  'menu.afcm.agfee-stl.carryFwdPay.queryReimbur': 'Query for Rendering Fee Lists',
+
+  'menu.afcm.agfee-stl.in-fee': 'KPI',
+  'menu.afcm.agfee-stl.in-fee.kpl-cal-reu-qry': 'KPI Query For Fee Calc Results',
+  'menu.afcm.agfee-stl.in-fee.kpl-gen-rep-bl': 'KPI Create Rendering',
+  'menu.afcm.agfee-stl.in-fee.kpl-be-proce-rep': 'KPI Wait For Process Rendering',
+  'menu.afcm.agfee-stl.in-fee.kpl-rep-bl-deta-iqry': 'KPI Query for Details of Rendering',
+
+  'menu.afcm.agfee-stl.bas-ver-rei': 'Basic Edition Rendering(System generated)',
+  'menu.afcm.agfee-stl.bas-ver-rei.gen-rep-bl': 'Create Rendering',
+  'menu.afcm.agfee-stl.bas-ver-rei.bl-pro': 'Wait For Process Rendering',
+  'menu.afcm.agfee-stl.bas-ver-rei.rep-bl-bet-iqry': 'Query for Details of Rendering',
+  'menu.afcm.agfee-stl.bas-ver-rei.un-qry': 'Query for un-renderred',
+
+  'menu.afcm.agfee-stl.cla-acc-exp': 'Clearance of Accuracy Fee',
+  'menu.afcm.agfee-stl.cla-acc-exp.wit-exp-cle': 'Accuracy Fee',
+  'menu.afcm.agfee-stl.cla-acc-exp.inq-bout-with-exp': 'Query Clearance of Accuracy Fee',
+  'menu.afcm.agfee-stl.cla-acc-exp.wee-agefee-enqury': 'Query For Week Of Voyage AgencyFee',
+  'menu.afcm.agfee-stl.cla-acc-exp.stat-with-bal': 'Stat Of YT Balance',
+
+  'menu.afcm.reportForm': 'Senior Edition Monitoring Reports',
+  'menu.afcm.reportForm.agFee': 'MonitorReport-Agfee',
+  'menu.afcm.reportForm.agFee.noEstimateQuery': 'Query for un-estimated',
+  'menu.afcm.reportForm.agFee.noBillQuery': 'Query for un-invoiced',
+  'menu.afcm.reportForm.agFee.noReimburQuery': 'Query for un-renderred',
+  'menu.afcm.reportForm.comm': 'MonitorReport-Comm',
+  'menu.afcm.reportForm.comm.noEstimateQuery': 'Query for un-estimated',
+  'menu.afcm.reportForm.comm.noBillQuery': 'Query for un-invoiced',
+  'menu.afcm.reportForm.comm.noReimburQuery': 'Query for un-renderred',
+
+  'menu.afcm.errQuery': 'Error Query',
+  'menu.afcm.errQuery.errType': 'Error Type',
+  'menu.afcm.errQuery.errChargeGroup': 'Group Be Responsible for Errors',
+  'menu.afcm.errQuery.spRunLogType': 'SP Run Log Type',
+  'menu.afcm.errQuery.spRunLog': 'SP Run Log',
+  'menu.afcm.errQuery.errQuery': 'Error Query',
+
+  'menu.afcm.sentServants': 'Punish',
+  'menu.afcm.sentServants.sentServantsConfiguration': 'Comm Fines Config',
+  'menu.afcm.sentServants.searchCaclSentServantsAgmtList': 'Comm Fines Calc Result',
+  'menu.afcm.sentServants.sentServantsToConfirm': 'Comm Fines Confirm',
+  'menu.afcm.sentServants.sentServantsReturned': 'Comm Fines Refund',
+  'menu.afcm.sentServants.penaltyStatusQuery': 'Comm Fines Status Enquiry',
+
+
+  'menu.afcm.accrued': '预提',
+  'menu.afcm.accrued.notAccrued': '未预提原因查询',
+  'menu.afcm.accrued.notAccrued.notAccruedAgFee': '未预提原因查询(代理费)',
+  'menu.afcm.accrued.notAccrued.notAccruedComm': '未预提原因查询(佣金)',
+  'menu.afcm.accrued.diff': '待预提与实际预提差异比对',
+  'menu.afcm.accrued.diff.diffAgFee': '待预提与实际预提差异比对(代理费)',
+  'menu.afcm.accrued.diff.diffComm': '待预提与实际预提差异比对(佣金)',
+
+
+  'menu.afcm.agreement.croossBooking': 'CroossBooking',
+  'menu.afcm.agreement.croossBooking.totalCSOuploaded': 'Contract NO. Maintenance',//中货总CSO上载
+  'menu.afcm.localCharge': 'localCharge',
+  'menu.afcm.localCharge.unconvertedRate': 'LC未转费率配置',
+  'menu.afcm.localCharge.convertedRate': 'LC已转费率配置',
+  'menu.afcm.localCharge.LCreportForm': 'LC报表任务管理',
+};
